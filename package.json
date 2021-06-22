@@ -1,13 +1,14 @@
 {
   "name": "food-app-admin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "node server.js",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -31,6 +32,7 @@
     "c3": "^0.7.8",
     "css-animator": "^2.3.0",
     "d3": "^5.11.0",
+    "express": "^4.17.1",
     "firebase": "7.14.2",
     "flag-icon-css": "^3.0.0",
     "font-awesome-scss": "^1.0.0",

@@ -139,5 +139,8 @@
       }
     }
   },
-  "defaultProject": "food-app-admin"
+  "defaultProject": "food-app-admin",
+  "cli": {
+    "analytics": "8bf62a8c-9cce-4b4b-b8a9-637b4058a93c"
+  }
 }
